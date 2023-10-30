@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(100, 149, 237);
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 50px;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.fonts {
+    color: grey;
+    font-family: "Roboto", sans-serif;
+}
+
+.fields {
+    background-color: rgb(250, 244, 244);
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    width: 80%;
+}
+
+.btn-light {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(100, 149, 237);
+    color: white;
+}
+
+.signup>li {
+    color: white;
+    list-style-type: none;
+}
+
+.signup>li>a {
+    color: white;
+}

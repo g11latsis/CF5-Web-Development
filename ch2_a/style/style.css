@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(48, 40, 79);
+}
+
+.container {
+    max-width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(35, 30, 57);
+    padding: 20px;
+    border-radius: 25px;
+    border: 1px solid rgb(151, 213, 201);
+}
+
+.sub-container {
+    background-color: rgb(48, 40, 79);
+    border-radius: 25px;
+    padding: 5px;
+    border: 1px solid rgb(151, 213, 201);
+}
+
+
+.profile-picture {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.headers {
+    font-family: "Roboto", sans-serif;
+    color: rgb(151, 213, 201);
+}
+
+.texts {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(151, 213, 201);
+}
+
+
+.icons {
+    color: rgb(90, 111, 127);
+    font-size: 25px;
+    padding: 5px;
+}
+
+.icons:link {
+    background-color: rgb(151, 213, 201);
+    color: rgb(35, 30, 57);
+}
+
+.icons:visited {
+    background-color: rgb(151, 213, 201);
+    color: rgb(35, 30, 57);
+}
+
+.icons:focus {
+    background-color: rgb(151, 213, 201);
+    color: rgb(35, 30, 57);
+}
+
+.icons:hover {
+    background-color: rgb(151, 213, 201);
+    color: rgb(35, 30, 57);
+    border-radius: 15%;
+}
+
+.icons:active {
+    background-color: rgb(151, 213, 201);
+    color: rgb(35, 30, 57);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list>a:link {
+    color: rgb(151, 213, 201);
+    text-decoration: none;
+}
+
+.list>a:visited {
+    color: rgb(90, 111, 127);
+}
+
+.list>a:focus {
+    background-color: rgb(151, 213, 201);
+    color: rgb(90, 111, 127);
+}
+
+.list>a:hover {
+    background-color: rgb(151, 213, 201);
+    color: rgb(90, 111, 127);
+}
+
+.list>a:active {
+    background-color: rgb(151, 213, 201);
+    color: rgb(90, 111, 127);
+}
+
+.btn-skills {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(35, 30, 57);
+    padding: 10px;
+    border: 1px solid rgb(151, 213, 201);
+    border-radius: 15%;
+}
