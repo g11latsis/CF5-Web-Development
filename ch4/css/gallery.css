@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery {
+    height: 100vh;
+    overflow: hidden;
+    min-height: 150px;
+    border: 5px solid black;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.gallery-img {
+    float: left;
+    height: auto;
+    width: 30%;
+    margin: 40px 1.5%;
+    overflow: hidden;
+}
