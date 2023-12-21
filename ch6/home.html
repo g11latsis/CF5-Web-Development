@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ferrari F40</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul class="main-menu">
+                <li><a class="menu" href="#">The History</a></li>
+                <li><a class="menu" href="#">The design</a></li>
+                <li><a class="menu" href="#">The engine</a></li>
+                <li><a class="menu" href="#">Technicals</a></li>
+                <li><a class="menu" href="#">Gallery</a></li>
+            </ul>
+
+            <div class="nav-toggle">
+                <input class="checkbox" type="checkbox" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="mobile-menu hidden">
+                    <li><a class="menu" href="#">The History</a></li>
+                    <li><a class="menu" href="#">The design</a></li>
+                    <li><a class="menu" href="#">The engine</a></li>
+                    <li><a class="menu" href="#">Technicals</a></li>
+                    <li><a class="menu" href="#">Gallery</a></li>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="hero">
+                <h1 class="titles">Ferrari F40</h1>
+                <button class="hero-button text-black">Read the story</button>
+            </div>
+        </div>
+
+        <div class="sub-hero">
+            <p class="text-black">The F40 was built to celebrate Ferrari’s 40th anniversary. A very fast berlinetta
+                designed by
+                Pininfarina, it was built mainly from composites. Its sophisticated high-performance, turbo-charged
+                running gear combined with a first class chassis gave it the kind of great dynamic prowess that was
+                close to that of a racing car.</p>
+        </div>
+
+        <section class="history" id="history">
+            <div class="history-txt">
+                <h1 class="titles mg-btm">The History</h1>
+                <p class="text-black">The F40 continued the extreme machine philosophy cultivated by its predecessor the
+                    GTO, but took it
+                    to new levels. It was greeted with great enthusiasm by enthusiasts and the number of examples
+                    eventually built exceeded the company’s wildest dreams. During the mid eighties there were various
+                    spy pictures in motoring magazines of a radical prototype(s) around the streets of Maranello, with
+                    all sorts of hypothesis as to its raison d’etre. It subsequently transpired that the car was what
+                    became known as the “Evoluzione”, a test bed for the upcoming F40.</p>
+            </div>
+            <div class="history-img">
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="contact sub-header">
+            <h3 class="mg-btm">Contact Information</h3>
+            <p class="mg-btm">Address: Ferrari Headquarters, Modena, Italy</p>
+            <p class="mg-btm">Email: info@ferrarif40.com</p>
+            <p class="mg-btm">Phone: +1 123-456-7890</p>
+        </div>
+        <div class="footer-center">
+            <img src="./img/logo2.png" alt="Logo">
+        </div>
+        <div class="socials sub-header">
+            <h3 class=" mg-btm">Connect with Us</h3>
+            <ul>
+                <li><a href="#"><i class="icons fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="icons fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="icons fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="icons fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+<script>
+    const toggleBtn = document.querySelector('.nav-toggle')
+    const mobileMenu = document.querySelector('.mobile-menu')
+
+    toggleBtn.addEventListener('click', function () {
+        mobileMenu.classList.toggle('show')
+    })
+
+
+</script>
+
+</html>
